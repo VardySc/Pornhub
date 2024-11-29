@@ -1,4 +1,4 @@
-getgenv().Trench.Ware = {
+getgenv().TrenchWare = {
     ["CameraLock"] = {
         ["Enabled"] = true,
      },
@@ -57,14 +57,14 @@ local AimingTab = Window:CreateTab("AimBots")
 local trust = AimingTab:CreateSector("MAIN", "left")
 
 trust:AddButton(
-    "trench.ware",
+    "trenchware",
     function()
-        loadstring(game:HttpGet('https://pastefy.app/HHrdOlW0/raw'))()
+        loastring(game:HttpGet('https://pastefy.app/HsdhHn4g/raw'))()
     end
 )
 
 trust:AddButton(
-    "new camlock (new version of trench.ware)",
+    "new camlock (new version of TrenchWare)",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/glokdraco/ghekko/refs/heads/main/loader"))()
     end
@@ -131,7 +131,7 @@ Settings:AddToggle(
 local trust2 = AimingTab:CreateSector("MAIN 2", "right")
 
 trust2:AddButton(
-    "trench.ware auto air",
+    "TrenchWare auto air",
     function()
         local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
